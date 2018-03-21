@@ -1,0 +1,538 @@
+[
+  {
+    "number": 486,
+    "type": "WS",
+    "watermark": "Pierce Barber",
+    "isOnline": true,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "15.156.202.92",
+    "duration": 98.4844,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 112,
+    "type": "WS",
+    "watermark": "Sanford Welch",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "229.239.114.209",
+    "duration": 150.0135,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 149,
+    "type": "H323",
+    "watermark": "Robinson Foster",
+    "isOnline": true,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "251.211.152.113",
+    "duration": 266.1424,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 815,
+    "type": "SIP",
+    "watermark": "Alyssa French",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "208.178.183.100",
+    "duration": 138.4851,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 780,
+    "type": "WS",
+    "watermark": "Hickman Cross",
+    "isOnline": true,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "30.144.240.241",
+    "duration": 289.0813,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 323,
+    "type": "WS",
+    "watermark": "Debbie Cannon",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "241.147.193.190",
+    "duration": 188.2831,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 368,
+    "type": "WS",
+    "watermark": "Francis Hopper",
+    "isOnline": true,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "157.34.173.58",
+    "duration": 124.6913,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 322,
+    "type": "WS",
+    "watermark": "Lindsay Anthony",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "201.7.2.225",
+    "duration": 331.7753,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 141,
+    "type": "WS",
+    "watermark": "Liz Jensen",
+    "isOnline": true,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "168.253.134.181",
+    "duration": 269.1473,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": 168,
+    "type": "SIP",
+    "watermark": "Vera Mullins",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "57.89.66.212",
+    "duration": 358.2192,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "H.264Base(n)",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "G7221"
+    }
+  },
+  {
+    "number": "player1",
+    "watermark": "Video player - Morse Knight",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "",
+    "duration": 248.0375,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "-",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "-"
+    }
+  },
+  {
+    "number": "player2",
+    "watermark": "Video player - Michael Compton",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "",
+    "duration": 177.7869,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "-",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "-"
+    }
+  },
+  {
+    "number": "player3",
+    "watermark": "Video player - Dianna Branch",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "",
+    "duration": 316.2461,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "-",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "-"
+    }
+  },
+  {
+    "number": "player5",
+    "watermark": "Video player - Mosley Chen",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": true,
+    "ip": "",
+    "duration": 14.7922,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "-",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "-"
+    }
+  },
+  {
+    "number": "player4",
+    "watermark": "Video player - Fulton Ingram",
+    "isOnline": true,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 255.3496,
+    "params": {
+      "inVideoCodec": "H.264Base",
+      "outVideoCodec": "-",
+      "inAudioCodec": "G7221",
+      "outAudioCodec": "-"
+    }
+  },
+  {
+    "number": "player6",
+    "type": "Player",
+    "watermark": "Video player - Mcgowan Weber",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": "player8",
+    "watermark": "Video player - Jeanine Reyes",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": "player7",
+    "watermark": "Video player - Jody Pittman",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": "player9",
+    "watermark": "Video player - Laverne Simpson",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": "player10",
+    "type": "Player",
+    "watermark": "Video player - Rogers Rosa",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 318,
+    "type": "Loop",
+    "watermark": "Patsy Jacobson",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "204.221.212.39",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 680,
+    "type": "WS",
+    "watermark": "White Tate",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "180.206.38.220",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 628,
+    "type": "WS",
+    "watermark": "Edwina Stark",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "1.181.190.234",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 434,
+    "type": "SIP",
+    "watermark": "Fern Daniel",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "224.24.82.185",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 673,
+    "type": "Loop",
+    "watermark": "Tracy Welch",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 756,
+    "type": "WS",
+    "watermark": "Corine Hodge",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 949,
+    "type": "Loop",
+    "watermark": "Jackie Chavez",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "3.206.61.70",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 340,
+    "type": "Loop",
+    "watermark": "Lucy Carrillo",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "226.82.198.33",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 437,
+    "type": "SIP",
+    "watermark": "Pearl Hale",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 941,
+    "type": "Loop",
+    "watermark": "Ryan Frank",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "186.49.56.55",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 498,
+    "type": "Loop",
+    "watermark": "Christian Pearson",
+    "isOnline": false,
+    "registration": false,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  },
+  {
+    "number": 666,
+    "type": "SIP",
+    "watermark": "Holcomb Herman",
+    "isOnline": false,
+    "registration": true,
+    "screenShot": "http://placehold.it/128x128",
+    "mic": false,
+    "ip": "233.115.179.168",
+    "duration": 0,
+    "params": {
+      "inVideoCodec": "",
+      "outVideoCodec": "",
+      "inAudioCodec": "",
+      "outAudioCodec": ""
+    }
+  }
+]

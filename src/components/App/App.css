@@ -1,0 +1,34 @@
+.App {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #eceff1;
+  align-items: center; }
+  .App__users-wrapper {
+    overflow-y: auto;
+    min-height: 0px;
+    display: flex; }
+    .App__users-wrapper_module {
+      padding: 20px;
+      flex: 1 1 auto;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: flex-start; }
+    .App__users-wrapper_list {
+      padding-top: 20px;
+      width: 100%;
+      flex: 1 1 auto;
+      flex-direction: column;
+      justify-content: flex-start; }
+  .App__users {
+    display: flex; }
+    .App__users_module {
+      width: 90%;
+      flex-flow: row wrap;
+      justify-content: flex-start; }
+    .App__users_list {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }

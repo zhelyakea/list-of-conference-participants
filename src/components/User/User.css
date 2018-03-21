@@ -1,0 +1,152 @@
+.User {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px #e2e2e2; }
+  .User_list {
+    min-width: 90%;
+    flex: 0 0 auto;
+    padding: 20px; }
+  .User_module {
+    min-width: 400px;
+    flex: 0 0 auto;
+    padding: 20px; }
+  .User__info-wrapper {
+    display: flex; }
+    .User__info-wrapper_list {
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1 0 auto; }
+    .User__info-wrapper_module {
+      flex-flow: column nowrap;
+      align-items: flex-start;
+      flex: 0 0 250px; }
+  .User__info-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; }
+    .User__info-row_list {
+      flex: 0 0 320px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      border-left: 1px solid #eceff1; }
+    .User__info-row_module {
+      margin-top: 12px;
+      margin-bottom: 3px; }
+    .User__info-row_second {
+      width: 100%;
+      justify-content: space-between; }
+  .User__registration-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; }
+  .User__left-wrapper {
+    display: flex;
+    align-items: center; }
+    .User__left-wrapper_list {
+      flex: 0 0 auto;
+      flex-flow: row nowrap; }
+    .User__left-wrapper_module {
+      flex: 0 0 100px;
+      flex-flow: column nowrap; }
+  .User__option-wrapper {
+    display: flex;
+    flex-flow: column nowrap; }
+    .User__option-wrapper_list {
+      justify-content: center;
+      align-items: center; }
+    .User__option-wrapper_module {
+      justify-content: flex-start;
+      align-self: flex-start; }
+  .User__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    position: relative;
+    background-size: contain; }
+    .User__avatar_online:after {
+      border: 1px solid #78c84b; }
+    .User__avatar_offline:after {
+      border: 1px solid #aeaeae; }
+    .User__avatar:after {
+      content: "";
+      position: absolute;
+      border-radius: 68px;
+      top: -6px;
+      left: -6px;
+      right: -6px;
+      bottom: -6px; }
+  .User__status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 10px; }
+    .User__status_online {
+      background-color: #78c84b; }
+    .User__status_offline {
+      background-color: #aeaeae; }
+  .User__microphone-icon {
+    width: 18px; }
+    .User__microphone-icon_module {
+      margin-top: 12px; }
+    .User__microphone-icon_list {
+      margin-left: 10px; }
+  .User__registration-icon {
+    width: 18px; }
+    .User__registration-icon_list {
+      margin-left: 22px; }
+  .User__registration-text {
+    margin-left: 5px; }
+    .User__registration-text_registered {
+      color: #6d60b0; }
+    .User__registration-text_unregistered {
+      color: #aeaeae; }
+  .User__ip-address {
+    color: #6d60b0; }
+  .User__number {
+    font-size: 12px;
+    color: #aeaeae; }
+    .User__number_list {
+      margin-left: 12px; }
+  .User__connection-wrapper {
+    color: #bdbdbd; }
+    .User__connection-wrapper_list {
+      flex: 0 0 240px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #eceff1;
+      font-size: 16px; }
+    .User__connection-wrapper_module {
+      font-size: 14px;
+      font-weight: 550;
+      margin-top: 10px; }
+  .User__duration-wrapper {
+    color: #bdbdbd; }
+    .User__duration-wrapper_list {
+      flex: 0 0 200px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #eceff1;
+      font-size: 16px; }
+    .User__duration-wrapper_module {
+      font-size: 14px;
+      font-weight: 550;
+      margin-top: 10px; }
+  .User__watermark {
+    color: #000000;
+    font-weight: bold;
+    white-space: nowrap;
+    word-wrap: normal; }
+    .User__watermark_list {
+      margin-left: 35px;
+      margin-right: 5px; }

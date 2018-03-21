@@ -1,0 +1,119 @@
+.Header {
+  width: 100%;
+  flex: 0 0 70px;
+  color: white;
+  background-color: #6d60b0;
+  box-shadow: 0 5px 10px #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  &__left-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  &__right-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  &__left-block {
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    &_logo,
+    &_search {
+      flex: 0 0 170px;
+    }
+    &_view {
+      flex: 0 0 250px;
+      border-left: 1px solid #8a80c0;
+    }
+    &_info {
+      flex: 0 0 220px;
+    }
+    &_onPage {
+      flex: 0 0 360px;
+    }
+    &_account {
+      flex: 0 0 190px;
+      border-left: 1px solid #8a80c0;
+      border-right: 1px solid #8a80c0;
+    }
+  }
+  &__logo-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__search-icon {
+    margin-right: 10px;
+  }
+  &__view-text {
+    margin-right: 15px;
+  }
+  &__view-icon {
+    margin-left: 10px;
+  }
+  &__account-plus {
+    margin-top: -7px;
+    margin-right: 10px;
+  }
+  &__page-count {
+    height: 25px;
+    border-radius: 2px;
+    border: 0 solid transparent;
+    text-align: left;
+    padding-left: 10px;
+    color: #aeaeae;
+    &_select {
+      width: 65px;
+      margin-left: 18px;
+    }
+    &_all {
+      width: 90px;
+      margin-left: 10px;
+    }
+  }
+  &__page-count-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    &_upSelect {
+      top: -10px;
+      left: -23px;
+    }
+    &_downSelect {
+      top: 10px;
+      left: -41px;
+    }
+    &_downSelectAll {
+      top: 5px;
+      left: -20px;
+    }
+  }
+  &__additional-info-button {
+    flex: 0 0 47px;
+    height: 24px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px #6a5cb1;
+    margin-left: 15px;
+  }
+  &__additional-info-button-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: #aeaeae;
+    background-color: #6d60b0;
+    border: 1.4px solid #ffffff;
+    box-shadow: 0 2px 10px #6a5cb1;
+  }
+}

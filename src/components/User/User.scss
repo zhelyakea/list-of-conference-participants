@@ -1,0 +1,203 @@
+.User {
+  &_list {
+    min-width: 90%;
+    flex: 0 0 auto;
+    padding: 20px;
+  }
+  &_module {
+    min-width: 400px;
+    flex: 0 0 auto;
+    padding: 20px;
+  }
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px #e2e2e2;
+  &__info-wrapper {
+    display: flex;
+    &_list {
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1 0 auto;
+    }
+    &_module {
+      flex-flow: column nowrap;
+      align-items: flex-start;
+      flex: 0 0 250px;
+    }
+  }
+  &__info-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    &_list {
+      flex: 0 0 320px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      border-left: 1px solid #eceff1;
+    }
+    &_module {
+      margin-top: 12px;
+      margin-bottom: 3px;
+    }
+    &_second {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  &__registration-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  &__left-wrapper {
+    display: flex;
+    align-items: center;
+    &_list {
+      flex: 0 0 auto;
+      flex-flow: row nowrap;
+    }
+    &_module {
+      flex: 0 0 100px;
+      flex-flow: column nowrap;
+    }
+  }
+  &__option-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    &_list {
+      justify-content: center;
+      align-items: center;
+    }
+    &_module {
+      justify-content: flex-start;
+      align-self: flex-start;
+    }
+  }
+  &__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    position: relative;
+    background-size: contain;
+    &_online {
+      &:after {
+        border: 1px solid #78c84b;
+      }
+    }
+    &_offline {
+      &:after {
+        border: 1px solid #aeaeae;
+      }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      border-radius: 68px;
+      top: -6px;
+      left: -6px;
+      right: -6px;
+      bottom: -6px;
+    }
+  }
+  &__status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 10px;
+    &_online {
+      background-color: #78c84b;
+    }
+    &_offline {
+      background-color: #aeaeae;
+    }
+  }
+  &__microphone-icon {
+    width: 18px;
+    &_module {
+      margin-top: 12px;
+    }
+    &_list {
+      margin-left: 10px;
+    }
+  }
+  &__registration-icon {
+    width: 18px;
+    &_list {
+      margin-left: 22px;
+    }
+  }
+  &__registration-text {
+    margin-left: 5px;
+    &_registered {
+      color: #6d60b0;
+    }
+    &_unregistered {
+      color: #aeaeae;
+    }
+  }
+  &__ip-address {
+    color: #6d60b0;
+  }
+  &__number {
+    font-size: 12px;
+    color: #aeaeae;
+    &_module {
+    }
+    &_list {
+      margin-left: 12px;
+    }
+  }
+  &__connection-wrapper {
+    color: #bdbdbd;
+    &_list {
+      flex: 0 0 240px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #eceff1;
+      font-size: 16px;
+    }
+    &_module {
+      font-size: 14px;
+      font-weight: 550;
+      margin-top: 10px;
+    }
+  }
+  &__duration-wrapper {
+    color: #bdbdbd;
+    &_list {
+      flex: 0 0 200px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #eceff1;
+      font-size: 16px;
+    }
+    &_module {
+      font-size: 14px;
+      font-weight: 550;
+      margin-top: 10px;
+    }
+  }
+  &__watermark {
+    color: #000000;
+    font-weight: bold;
+    white-space: nowrap;
+    word-wrap: normal;
+    &_module {
+    }
+    &_list {
+      margin-left: 35px;
+      margin-right: 5px;
+    }
+  }
+}
