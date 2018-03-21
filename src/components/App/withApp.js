@@ -39,19 +39,20 @@ export default compose(
       dataList
     }) => event => {
       let page = "";
-      let pageType = event.target.dataset.page;
+      const pageType = event.target.dataset.page;
+      const pageLen = Object.keys(pages).length;
       switch (pageType) {
         case "first":
           page = 0;
           break;
         case "last":
-          page = Object.keys(pages).length - 1;
+          page = pageLen - 1;
           break;
         case "prev":
-          page = selectedPage - 1;
+          page = selectedPage > 0 ? selectedPage - 1 : null;
           break;
         case "next":
-          page = selectedPage + 1;
+          page = selectedPage < pageLen - 1 ? selectedPage + 1 : null;
           break;
         default:
           page = event.target.dataset.page;
@@ -73,9 +74,6 @@ export default compose(
     }) => () => {
       setCount(pageCount + 1);
       setPages(getPages(data, pageCount + 1));
-      if (pages.hasOwnProperty(selectedPage)) {
-        setDataPages(filterPage(dataList, pages[selectedPage]));
-      }
     },
     pageCountMinusHandler: ({
       setCount,
@@ -88,9 +86,6 @@ export default compose(
     }) => () => {
       setCount(pageCount - 1);
       setPages(getPages(data, pageCount - 1));
-      if (pages.hasOwnProperty(selectedPage)) {
-        setDataPages(filterPage(dataList, pages[selectedPage]));
-      }
     }
   }),
   lifecycle({
@@ -108,6 +103,16 @@ export default compose(
       setSelectedPage(0);
       if (data.hasOwnProperty(0)) {
         setDataPages(data);
+      }
+    },
+    componentWillReceiveProps(nextProps) {
+      const { pages, pageCount, dataList, setDataPages } = this.props;
+      if (pageCount !== nextProps.pageCount) {
+        if (pages.hasOwnProperty(nextProps.selectedPage)) {
+          setDataPages(
+            filterPage(dataList, nextProps.pages[nextProps.selectedPage])
+          );
+        }
       }
     }
   }),
